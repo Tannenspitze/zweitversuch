@@ -6,6 +6,8 @@ const port = process.env.PORT || 5000;
 const filename = __dirname + "/profs.json";
 
 //Middleware
+console.log("hallo")
+
 app.use(express.json()); //for parsing application/json
 app.use(cors()); //for configuring Cross-Origin Resource Sharing (CORS)
 function log(req, res, next) {
