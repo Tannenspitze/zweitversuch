@@ -5,8 +5,12 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "run": "nodemon -e js server.js"
+        "run": "nodemon -e js server.js",
+        "start": "node server.js"
+     
     },
+    "engines": {    
+        "node": "v14.16.1"},
     "author": "",
     "license": "ISC",
     "dependencies": {
@@ -14,4 +18,5 @@
         "express": "^4.17.1",
         "nodemon": "^2.0.7"
     }
+    
 }
